@@ -40,3 +40,14 @@ def problem1():
       print("FAIL")
 pass
 problem1()
+
+def problem2():
+  vowels = set("aeiou")
+  word = input().lower()
+  vowel_counter = 0
+  for letters in word:
+    if letters in vowels:
+        vowel_counter += 1
+  print(vowel_counter)
+pass
+problem2()
